@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G3025" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllLevel" representedClassName="AllLevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <entity name="APILevel" representedClassName="APILevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <entity name="CameraLevel" representedClassName="CameraLevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <entity name="EasyLevel" representedClassName="EasyLevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <entity name="HardLevel" representedClassName="HardLevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <entity name="Level" representedClassName="Level" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="bestMoveCount" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bestTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="blankSpace" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="board" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="boardSize" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="completed" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="completedPerfect" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="entityType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minMovesComplete" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="MediumLevel" representedClassName="MediumLevel" parentEntity="Level" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="AllLevel" positionX="-216" positionY="-9" width="128" height="45"/>
+        <element name="APILevel" positionX="-216" positionY="-9" width="128" height="45"/>
+        <element name="CameraLevel" positionX="-216" positionY="-9" width="128" height="45"/>
+        <element name="EasyLevel" positionX="-45" positionY="81" width="128" height="43"/>
+        <element name="HardLevel" positionX="-198" positionY="9" width="128" height="45"/>
+        <element name="Level" positionX="-395.02734375" positionY="-101.984375" width="128" height="210"/>
+        <element name="MediumLevel" positionX="-207" positionY="0" width="128" height="45"/>
+    </elements>
+</model>
